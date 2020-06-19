@@ -20,8 +20,10 @@
 ## Alignments  
 - Encoder-Decoder Alignments  
 <img src="figures/enc_dec_align.JPG" height="600">  
+
 - Melspectrogram  
 <img src="figures/melspec.JPG" height="600">  
+
 - Stop prediction  
 <img src="figures/gate_out.JPG" height="200">  
 

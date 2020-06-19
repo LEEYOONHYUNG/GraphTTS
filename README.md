@@ -25,7 +25,7 @@
 <img src="figures/gate_out.JPG" height="200">  
 
 ## Audio Samples    
-You can hear the audio samples [here](https://leeyoonhyung.github.io/Transformer-TTS/)
+You can hear the audio samples [here](https://leeyoonhyung.github.io/GraphTTS/)
 
 ## Notice  
 1. Unlike the original paper, I didn't use the encoder-prenet following [espnet](https://github.com/espnet/espnet)  

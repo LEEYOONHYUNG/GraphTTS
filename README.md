@@ -25,7 +25,7 @@
 <img src="figures/gate_out.JPG" height="200">  
 
 ## Audio Samples    
-You can hear the audio samples [here](https://leeyoonhyung.github.io/GraphTTS/)
+You can hear the audio samples [here](https://leeyoonhyung.github.io/GraphTTS/)  
 You can also hear the audio samples obtained from the Transformer-TTS [here](https://leeyoonhyung.github.io/Transformer-TTS/)
 
 ## Notice  

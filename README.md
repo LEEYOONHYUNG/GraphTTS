@@ -1,5 +1,6 @@
 # Graph-TTS
-- Implementation of ["GraphTTS: graph-to-sequence modelling in neural text-to-speech"](https://arxiv.org/abs/2003.01924)    
+- Implementation of ["GraphTTS: graph-to-sequence modelling in neural text-to-speech"](https://arxiv.org/abs/2003.01924)  
+- I failed to generate the plausible speech :(  
 
 ## Training  
 1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)  

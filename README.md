@@ -26,6 +26,7 @@
 
 ## Audio Samples    
 You can hear the audio samples [here](https://leeyoonhyung.github.io/GraphTTS/)
+You can also hear the audio samples obtained from the Transformer-TTS [here](https://leeyoonhyung.github.io/Transformer-TTS/)
 
 ## Notice  
 1. Unlike the original paper, I didn't use the encoder-prenet following [espnet](https://github.com/espnet/espnet)  

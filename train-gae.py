@@ -2,7 +2,7 @@ import os, argparse
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from modules.model import GraphTTS
+from modules.model import GAE
 from modules.loss import TransformerLoss
 import hparams
 from text import *
@@ -67,7 +67,7 @@ def validate(model, criterion, val_loader, iteration, writer):
     
 def main():
     train_loader, val_loader, collate_fn = prepare_dataloaders(hparams)
-    model = nn.DataParallel(GraphTTS(hparams)).cuda()
+    model = nn.DataParallel(GAE(hparams)).cuda()
     optimizer = torch.optim.Adam(model.parameters(),
                                  lr=hparams.lr,
                                  betas=(0.9, 0.98),
@@ -131,8 +131,8 @@ if __name__ == '__main__':
     p.add_argument('--gpu', type=str, default='0,1')
     p.add_argument('-v', '--verbose', type=str, default='0')
     args = p.parse_args()
-    hparams.log_directory = 'graph-tts-char_iter5'
-    hparams.iterations = 5
+    hparams.log_directory = 'gae-char'
+    hparams.iterations = 1
     
     os.environ["CUDA_VISIBLE_DEVICES"]=args.gpu
     torch.manual_seed(hparams.seed)
